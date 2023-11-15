@@ -1,0 +1,26 @@
+.button {
+  display: inline-flex;
+  height: 30px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  flex-shrink: 0;
+  background: #bd2e33;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}
+
+.button-icon {
+  display: flex;
+  width: 100%;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: red;
+  cursor: pointer;
+}
